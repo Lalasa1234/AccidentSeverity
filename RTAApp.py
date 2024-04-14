@@ -5,7 +5,7 @@ import joblib
 import xgboost
 import numpy as np
 
-model_path = 'ModelBuilding_Notebook\XGBoost_model.joblib'
+model_path = 'ModelBuilding_Notebook/XGBoost_model.joblib'
 model_loaded = joblib.load(model_path)
 
 st.title("Accident Severity Prediction App")
